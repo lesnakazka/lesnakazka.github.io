@@ -1,0 +1,1324 @@
+@font-face {
+    font-family: "ArialRegular";
+    src: url("../fonts/ArialRegular/ArialRegular.eot");
+    src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialRegular/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArialBold";
+    src: url("../fonts/ArialBold/ArialBold.eot");
+    src: url("../fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBold/ArialBold.woff") format("woff"),
+    url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArialItalic";
+    src: url("../fonts/ArialItalic/ArialItalic.eot");
+    src: url("../fonts/ArialItalic/ArialItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialItalic/ArialItalic.woff") format("woff"),
+    url("../fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArialBlack";
+    src: url("../fonts/ArialBlack/ArialBlack.eot");
+    src: url("../fonts/ArialBlack/ArialBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBlack/ArialBlack.woff") format("woff"),
+    url("../fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArialBoldItalic";
+    src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot");
+    src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBoldItalic/ArialBoldItalic.woff") format("woff"),
+    url("../fonts/ArialBoldItalic/ArialBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arial", Verdana, sans-serif;
+    font-size: 16px;
+    color: #090909;
+}
+img {
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.green {
+    color: #228b22;
+    font-family: ArialItalic, sans-serif;
+    font-weight: 700;
+}
+
+/*Header*/
+.img_logo {
+    width: 60%;
+}
+.logo {
+    text-align: center;
+}
+li a:hover {
+    color: #228b22;
+}
+ul.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 70px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav li {
+    margin-right: 60px;
+}
+ul.cont {
+    margin-top: 27px;
+    margin-left: 85px;
+    font-size: 18px;
+}
+.cont li {
+    margin-bottom: 15px;
+}
+i.fa.fa-envelope-o {
+    margin-left: -4px;
+}
+i.fa {
+    margin-right: 10px;
+    color: forestgreen;
+}
+
+/*Банер*/
+.banner {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+.banner img {
+    width: 100%;
+}
+
+/*О базе отдіха "Лесная сказка"*/
+.about_us {
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+.about_us h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.photo_img  {
+    padding: 0;
+    height: 368px;
+    margin-left: 45px;
+}
+.about_us img {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.text p {
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 3px 0;
+}
+
+/*Фото галлерея*/
+.gallery {
+    background: url(../img/font-lesnaia-skazka.jpg) no-repeat;
+    height: 1060px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+.photo_block {
+    background: url("../img/photo_border.png") no-repeat;
+    height: 404px;
+    margin-top: 40px;
+}
+.photo_block_1,
+.photo_block_2 {
+    margin-right: 50px;
+}
+.photo_block p {
+    position: absolute;
+    left: 30%;
+    bottom: 9%;
+    font-size: 26px;
+}
+.photo_block img {
+    width: 86%;
+    height: 274px;
+    position: absolute;
+    left: 9%;
+    top: 37px;
+}
+h2 {
+    display: block;
+    background: #090909;
+    padding: 5px 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/*Баня в Лесной сказке*/
+.banya {
+    margin-bottom: 50px;
+}
+.banya h3 {
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.banya_row {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.photo_banya img {
+    height: 380px;
+    width: 95%;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.banya .photo_img {
+    background: url(../img/doska.png) no-repeat;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-size: 100%;
+    height: 416px;
+    margin-top: -60px;
+}
+.banya .text {
+    margin-top: 35px;
+}
+.banya_text {
+    position: absolute;
+    left: 22%;
+    top: 48%;
+}
+.banya_text h4 {
+    font-size: 30px;
+    font-family: ArialItalic, sans-serif;
+    font-weight: 700;
+    color: #5e2614;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: -30px;
+}
+.banya_text li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: ArialBold, sans-serif;
+}
+
+
+/*Ресторан-Банкетный зал*/
+.restoran {
+    margin-top: 90px;
+    margin-bottom: 50px;
+
+}
+.restoran h2 {
+    margin-bottom: 50px;
+}
+.photo_restoran_1 img {
+    height: 670px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.text_photo img {
+    margin-top: 30px;
+    height: 322px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.photo_restoran_1 {
+    margin-left: 101px;
+}
+
+
+.rooms h3 {
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.tablica {
+    border-top: 1px solid #090909;
+    border-bottom: 1px solid #090909;
+    padding: 16px 0;
+    height: 50px;
+    background: #090909;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.margin-left {
+    text-align: center;
+    margin-left: 95px;
+}
+.marg {
+    margin-left: 96px;
+}
+.tablica span {
+    font-size: 18px;
+    color: #fff;
+}
+.table_row {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+.table_row ul {
+    text-align: left;
+    margin-left: 40px;
+}
+.table_row ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.photo_rooms img {
+    width: 75%;
+}
+.border {
+    border-top: 2px solid #090909;
+    margin: 0 50px;
+    margin-top: 30px;
+}
+
+/*карта*/
+.map {
+    margin-bottom: 50px;
+}
+.map h3 {
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.map_text {
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.map_text li {
+    margin-bottom: 15px;
+}
+.fa-check {
+    margin-left: 15px;
+}
+ul.map_logo {
+    margin-top: -127px;
+}
+iframe {
+    width: 100%;
+}
+
+/*footer*/
+.footer {
+    border-top: 1px solid #090909;
+}
+.footer_text p {
+    display: inline-block;
+    margin-left: 11%;
+    padding: 22px;
+}
+.fa.fa-facebook-official,
+.fa.fa-instagram,
+.fa.fa-google-plus-square {
+    font-size: 24px;
+}
+.fa.fa-facebook-official {
+    margin-left: 5px;
+}
+.footer_text p.social {
+    font-size: 20px;
+}
+.copyright,
+.develop {
+    font-size: 12px;
+}i.fa.fa-copyright {
+     margin-right: 0;
+ }
+
+@media screen and (max-width: 1920px){
+    ul.nav {
+        margin-top: 120px;
+        font-size: 20px;
+    }
+    ul.cont {
+        margin-top: 82px;
+        font-size: 20px;
+    }
+    .text p {
+        font-size: 21px;
+        line-height: 36px;
+    }
+    .photo_block img {
+        width: 74%;
+    }
+    .banya .photo_img {
+        height: 560px;
+    }
+    .banya_text h4 {
+        font-size: 43px;
+    }
+    .banya_text li {
+        font-size: 26px;
+    }
+    .banya_text {
+        position: absolute;
+        top: 47%;
+    }
+    .text p {
+        font-size: 23px;
+    }
+    .photo_restoran_1 img {
+        height: 826px;
+    }
+    ul.map_logo img {
+        width: 80%;
+    }
+    .footer_text p {
+        margin-left: 14%;
+    }
+    .ban p {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    ul.nav {
+        margin-top: 90px;
+    }
+    ul.cont {
+        margin-top: 50px;
+    }
+    ul.cont {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .text p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .photo_block img {
+        width: 86%;
+    }
+
+    .banya_text h4 {
+        font-size: 34px;
+    }
+
+    .banya_text li {
+        font-size: 22px;
+    }
+
+    .banya_text {
+        top: 39%;
+    }
+
+    .ban .text p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 70px;
+    }
+
+    .photo_restoran_1 img {
+        height: 735px;
+    }
+
+    .footer_text p {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    ul.nav {
+        margin-top: 70px;
+        font-size: 16px;
+    }
+    ul.cont {
+        margin-top: 27px;
+        margin-left: 85px;
+        font-size: 18px;
+    }
+    .text p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .banya .photo_img {
+        height: 416px;
+    }
+    .banya_text h4 {
+        font-size: 30px;
+    }
+    .banya_text li {
+        font-size: 20px;
+    }
+    .banya_text {
+        top: 47%;
+    }
+    .ban .text p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 29px;
+    }
+    .photo_restoran_1 img {
+        height: 670px;
+    }
+    .footer_text p {
+        margin-left: 11%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .photo_img {
+        height: 349px;
+    }
+    .text p {
+        line-height: 22px;
+    }
+    .banya_row {
+        margin-left: 6px;
+    }
+    .ban .text p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .photo_img {
+        height: 307px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+    .about_us {
+        margin-bottom: 100px;
+    }
+    .photo_block {
+        height: 350px;
+    }
+    .photo_block img {
+        height: 250px;
+    }
+    .photo_block p {
+        bottom: 5%;
+        font-size: 24px;
+    }
+    h2 {
+        margin-top: 30px;
+        font-size: 32px;
+    }
+    .gallery {
+        height: 960px;
+    }
+    .photo_banya img {
+        height: 300px;
+    }
+    .ban .text p {
+        font-size: 16px;
+    }
+    .banya_text {
+        left: 14%;
+        top: 37%;
+    }
+    .restoran {
+        margin-top: 50px;
+    }
+    .text_photo img {
+        height: 300px;
+    }
+    .photo_restoran_1 img {
+        height: 621px;
+    }
+    .marg {
+        margin-left: 30px;
+    }
+    .margin-left {
+        margin-left: 30px;
+    }
+    .table_row ul li {
+        font-size: 12px;
+    }
+    .tablica span {
+        font-size: 16px;
+        color: #fff;
+    }
+    .footer_text p {
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    ul.nav {
+        font-size: 12px;
+    }
+
+    .nav li {
+        margin-right: 50px;
+    }
+
+    ul.cont {
+        margin-top: 28px;
+        margin-left: 31px;
+        font-size: 16px;
+    }
+
+    .banner {
+        margin-bottom: 35px;
+    }
+
+    .photo_img {
+        height: 319px;
+    }
+
+    .about_us {
+        margin-bottom: 70px;
+    }
+
+    .photo_block img {
+        height: 200px;
+    }
+
+    .photo_block p {
+        bottom: 6%;
+        font-size: 21px;
+        left: 30%;
+    }
+
+    .photo_block {
+        height: 295px;
+    }
+
+    .gallery {
+        height: 850px;
+    }
+
+    .gallery {
+        margin-bottom: 35px;
+    }
+
+    .banya h3 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    .photo_banya img {
+        height: 250px;
+    }
+    .banya .text {
+        margin-top: 0;
+    }
+    .ban .text p {
+        font-size: 15px;
+    }
+    .banya_text h4 {
+        font-size: 22px;
+    }
+    .banya_text li {
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-family: ArialBold, sans-serif;
+    }
+    .banya_text {
+        left: 21%;
+        top: 36%;
+    }
+    .banya .photo_img {
+        height: 360px;
+    }
+    .restoran h2 {
+        font-size: 24px;
+    }
+    .rooms h3 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    .restoran {
+        margin-top: 30px;
+    }
+    .tablica {
+        padding: 10px 0;
+        height: 40px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .tablica span {
+        font-size: 15px;
+    }
+    .marg {
+        margin-left: 0px;
+    }
+    i.fa {
+        margin-right: 8px;
+    }
+    .table_row ul {
+        margin-left: 35px;
+    }
+    .table_row ul li {
+        font-size: 11px;
+    }
+    .map_logo {
+        display: none;
+    }
+    .map h3 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .map_text {
+        margin-left: 30px;
+        margin-bottom: 27px;
+    }
+    .map_text li {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    iframe {
+        height: 300px;
+    }
+    .footer_text p.social {
+        font-size: 18px;
+    }
+    .footer_text p {
+        display: inline-block;
+        margin-left: 7%;
+        padding: 12px;
+    }
+    .map {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .img_logo {
+        width: 30%;
+    }
+    ul.cont {
+        position: absolute;
+        right: 95px;
+        top: -119px;
+    }
+    ul.nav {
+        position: absolute;
+        left: 9%;
+        margin-top: 67px;
+        font-size: 10px;
+    }
+    .text p {
+        padding-right: 19px;
+        line-height: 18px;
+    }
+    .about_us img {
+        height: 380px;
+    }
+    .row.banya_row {
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .nav li {
+        margin-right: 30px;
+    }
+    ul.cont {
+        margin-top: 18px;
+        margin-left: 26px;
+        font-size: 12px;
+    }
+    .banner {
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    .about_us {
+        margin-top: 30px;
+    }
+    .photo_img {
+        margin-left: 20px;
+    }
+    .about_us h1 {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .text p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .photo_img {
+        margin-top: 50px;
+    }
+    .about_us {
+
+    }
+    h2 {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .photo_block img {
+        height: 155px;
+    }
+    .photo_block {
+        height: 240px;
+    }
+    .photo_block_1, .photo_block_2 {
+        margin-right: 32px;
+    }
+    .photo_block p {
+        bottom: 6%;
+        font-size: 17px;
+        left: 30%;
+    }
+    .gallery {
+        height: 720px;
+    }
+    .gallery {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .photo_banya img {
+        height: 200px;
+    }
+    .banya .photo_img {
+        margin-top: -20px;
+        margin-left: 19%;
+        width: 44%;
+        height: 315px;
+    }
+    .ban .text p {
+        font-size: 14px;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .photo_restoran_1 img {
+        height: 500px;
+        width: 90%;
+    }
+    .restoran .text p {
+        font-size: 12px;
+        margin-left: 0;
+        line-height: 18px;
+    }
+    .photo_img {
+        margin-top: 25px;
+        margin-left: 64px;
+    }
+    .text_photo img {
+        height: 330px;
+        margin-top: 15px;
+    }
+    .photo_restoran_1 {
+        margin-left: 70px;
+    }
+    .restoran {
+        margin-bottom: 30px;
+    }
+    .tablica span {
+        font-size: 13px;
+    }
+    .tablica {
+        padding: 7px 0;
+        height: 35px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .table_row ul {
+        margin-left: 18px;
+    }
+    .table_row {
+        margin-top: 20px;
+    }
+    .marg {
+        margin-left: 10px;
+    }
+    .table_row ul li {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+    .cost ul li {
+        margin-left: 15px;
+    }
+    .photo_rooms ul li {
+        margin-left: 15px;
+    }
+    .table_row {
+        margin-right: 27px;
+        margin-left: 25px;
+    }
+    i.fa {
+        margin-right: 7px;
+    }
+    .map h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .map_text li {
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+    .footer_text p {
+        display: inline-block;
+        margin-left: 4%;
+        padding: 7px;
+    }
+    .footer_text p.social {
+        font-size: 15px;
+    }
+    .text p {
+        font-size: 14px;
+        text-align: center;
+        margin-left: 30px;
+        line-height: 18px;
+    }
+    .banya_text {
+        left: 23%;
+        top: 42%;
+    }
+    .banya {
+        margin-bottom: 0;
+    }
+    .restoran {
+        margin-top: 0;
+    }
+    .text_photo {
+        margin-left: 73px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .ban .text p {
+        line-height: 22px;
+    }
+    ul.nav {
+        margin-top: 23px;
+        position: absolute;
+        left: 15%;
+        display: block;
+    }
+    ul.cont {
+        margin-top: 43px;
+        margin-left: 0;
+        font-size: 10px;
+    }
+    .contacts.col-lg-4.col-md-4.col-sm-4.col-xs-12 {
+        margin-left: 58px;
+    }
+    .nav li {
+        margin-bottom: 8px;
+    }
+    .img_logo {
+        width: 40%;
+    }
+    .cont li {
+        margin-bottom: 6px;
+    }
+    .about_us h1 {
+        margin-bottom: 5px;
+        font-size: 17px;
+    }
+    .text p {
+        font-size: 13px;
+        margin-left: 10px;
+        padding: 15px;
+        line-height: 18px;
+        text-align: left;
+    }
+    .photo_img {
+        margin-top: 20px;
+        margin-left: 38px;
+    }
+    .about_us {
+        margin-bottom: 20px;
+    }
+    .photo_block img {
+        height: 80px;
+        width: 78%;
+        margin-left: 8px;
+    }
+    .photo_block {
+        height: 143px;
+        margin-top: 20px;
+    }
+    .photo_block p {
+        bottom: 5%;
+        font-size: 10px;
+        left: 23%;
+    }
+    .photo_block_1, .photo_block_2 {
+        margin-right: 15px;
+    }
+    .gallery {
+        height: 450px;
+        margin-top: 20px;
+    }
+    .banya h3 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .photo_banya img {
+        height: 110px;
+    }
+    .ban .text p {
+        font-size: 13px;
+        margin-left: 0;
+        text-align: left;
+    }
+    .banya_row {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .about_us .photo_img {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .photo_img {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .banya {
+        margin-bottom: 15px;
+    }
+    .restoran h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .banya .photo_img {
+        height: 280px;
+        width: 70%;
+        margin-left: 7%;
+    }
+    .banya_text {
+        left: 19%;
+        top: 39%;
+    }
+    .photo_restoran_1 img {
+        height: 470px;
+    }
+    .photo_restoran_1 {
+        margin-left: 37px;
+        margin-bottom: 10px;
+    }
+    .text_photo {
+        margin-left: 40px;
+        margin-top: 0;
+    }
+    .rooms h3 {
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .tablica {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .margin-left {
+        margin-left: 0px;
+    }
+    .tablica span {
+        font-size: 10px;
+    }
+    .table_row {
+        margin-top: 10px;
+    }
+    .table_row ul {
+        margin-left: 0;
+    }
+    i.fa {
+        margin-right: 1px;
+    }
+    .table_row ul li {
+        font-size: 7px;
+        margin-bottom: 2px;
+    }
+    .border {
+        border-top: 1px solid #090909;
+        margin: 0 10px;
+        margin-top: 15px;
+    }
+    .map_text li {
+        margin-bottom: 6px;
+        font-size: 10px;
+    }
+    .map_text {
+        margin-left: 34px;
+        margin-bottom: 20px;
+    }
+    iframe {
+        height: 250px;
+    }
+    p.develop {
+        font-size: 9px;
+        position: absolute;
+        left: 59%;
+        bottom: 0;
+    }
+    p.copyright {
+        font-size: 9px;
+        position: absolute;
+        right: 55%;
+        bottom: 0;
+    }
+    .footer_text p.social {
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-left: 25%;
+    }
+    .about_us img {
+        height: 316px;
+    }
+    .row.banya_row {
+        margin-bottom: 10px;
+    }
+    .photo_rooms img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .photo_block {
+        height: 127px;
+    }
+    .photo_block img {
+        height: 70px;
+        width: 75%;
+        margin-left: 10px;
+        margin-top: -6px;
+    }
+    .gallery {
+        height: 395px;
+    }
+    .banya_text {
+        left: 14%;
+        top: 34%;
+    }
+    .about_us .photo_img {
+        margin-left: 36px;
+    }
+    p.copyright {
+        font-size: 8px;
+        left: -2%;
+    }
+    p.develop {
+        font-size: 8px;
+        left: 66%;
+    }
+    .ban .text p {
+
+        padding: 0;
+        margin-top: 15px;
+    }
+    .table_row ul li {
+        font-size: 5px;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about_us .photo_img {
+        margin-left: 34px;
+    }
+    .banya_text li {
+        font-size: 12px;
+    }
+    .banya_text {
+        left: 18%;
+        top: 38%;
+    }
+    .banya .photo_img {
+        height: 250px;
+    }
+    .photo_restoran_1 img {
+        height: 379px;
+    }
+    .text_photo img {
+        height: 284px;
+    }
+    .photo_restoran_1 {
+        margin-left: 33px;
+    }
+    .text_photo {
+        margin-left: 33px;
+    }
+    p.develop {
+        font-size: 8px;
+        left: 63%;
+    }
+    iframe {
+        height: 213px;
+    }
+    .footer_text p.social {
+        margin-left: 22%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    ul.nav {
+        margin-top: 16px;
+    }
+    ul.cont {
+        right: 81px;
+        top: -126px;
+    }
+    ul.cont {
+        font-size: 9px;
+        top: -102px;
+    }
+    .nav li {
+        margin-bottom: 5px;
+    }
+    .about_us h1 {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .banner {
+        margin-bottom: 15px;
+    }
+    .about_us .photo_img {
+        margin-left: 30px;
+    }
+    .about_us .photo_img {
+        margin-top: 10px;
+    }
+    .photo_block p {
+        font-size: 12px;
+        left: 23%;
+    }
+    .photo_block img {
+        height: 69px;
+    }
+    .photo_block {
+        height: 129px;
+    }
+    .gallery {
+        height: 400px;
+    }
+    .banya h3 {
+        font-size: 15px;
+    }
+    .gallery {
+        margin-bottom: 15px;
+    }
+    .photo_banya img {
+        height: 80px;
+        width: 100%;
+    }
+    .banya_text h4 {
+        font-size: 19px;
+    }
+    .banya_text h4 {
+        font-size: 18px;
+        margin-left: -20px;
+    }
+    .banya_text li {
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+    .banya .photo_img {
+        height: 220px;
+    }
+    .banya_text {
+        top: 42%;
+    }
+    .photo_restoran_1 img {
+        height: 350px;
+    }
+    .photo_restoran_1 {
+        margin-left: 30px;
+    }
+    .text_photo {
+        margin-left: 30px;
+    }
+    .table_row ul li {
+        font-size: 4px;
+    }
+    .map h3 {
+        margin-bottom: 15px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .map_text li {
+        margin-bottom: 6px;
+        font-size: 7px;
+    }
+    .map_text {
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+    iframe {
+        height: 175px;
+    }
+    .footer_text p.social {
+        font-size: 10px;
+    }
+    p.copyright {
+        font-size: 7px;
+    }
+    p.develop {
+        font-size: 7px;
+    }
+    .photo_block img {
+        height: 60px;
+    }
+    .photo_block {
+        height: 114px;
+    }
+    .photo_block p {
+        font-size: 8px;
+        left: 27%;
+    }
+    .gallery {
+        height: 360px;
+    }
+}
