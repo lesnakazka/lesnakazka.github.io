@@ -417,10 +417,10 @@ iframe {
         top: 47%;
     }
     .text p {
-        font-size: 23px;
+        font-size: 27px;
     }
     .photo_restoran_1 img {
-        height: 826px;
+        height: 898px;
     }
     ul.map_logo img {
         width: 80%;
@@ -428,22 +428,9 @@ iframe {
     .footer_text p {
         margin-left: 14%;
     }
-    .ban p {
-        margin-top: 30px;
-    }
 }
 
 @media screen and (max-width: 1600px) {
-    ul.nav {
-        margin-top: 90px;
-    }
-    ul.cont {
-        margin-top: 50px;
-    }
-    ul.cont {
-        margin-top: 50px;
-        font-size: 20px;
-    }
     .text p {
         font-size: 18px;
         line-height: 29px;
@@ -531,6 +518,13 @@ iframe {
     }
     .ban .text p {
         font-size: 18px;
+        margin-top: -17px;
+    }
+    .text_photo img {
+        height: 304px;
+    }
+    .map_text {
+        font-size: 15px;
     }
 }
 
@@ -599,6 +593,84 @@ iframe {
     }
 }
 
+
+@media screen and (max-width: 1024px) {
+    ul.nav {
+        font-size: 14px;
+    }
+    .nav li {
+        margin-right: 50px;
+    }
+    ul.cont {
+        margin-left: 30px;
+    }
+    .text p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .about_us {
+        margin-bottom: 50px;
+    }
+    .photo_block img {
+        height: 210px;
+    }
+    .photo_block {
+        height: 310px;
+    }
+    .photo_block p {
+        bottom: 6%;
+        font-size: 21px;
+    }
+    .gallery {
+        height: 880px;
+    }
+    .ban .text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .ban .text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+    .banya_text h4 {
+        font-size: 22px;
+    }
+    .banya_text li {
+        font-size: 16px;
+    }
+    .banya_text {
+        left: 18%;
+        top: 35%;
+    }
+    .banya .photo_img {
+        margin-top: -29px;
+    }
+    .banya .photo_img {
+        height: 363px;
+    }
+    .photo_restoran_1 img {
+        height: 533px;
+    }
+    ul.map_logo img {
+        width: 100%;
+    }
+    .map_text {
+        margin-left: 60px;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+    .footer_text p.social {
+        font-size: 18px;
+    }
+    .footer_text p {
+        margin-left: 6%;
+    }
+    .text_photo img {
+        height: 250px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     ul.nav {
         font-size: 12px;
@@ -633,7 +705,10 @@ iframe {
     .photo_block p {
         bottom: 6%;
         font-size: 21px;
-        left: 30%;
+        left: 28%;
+    }
+    .text_photo img {
+        height: 326px;
     }
 
     .photo_block {
@@ -736,6 +811,10 @@ iframe {
     }
     .map {
         margin-bottom: 30px;
+    }
+    .about_us .text p {
+        font-size: 14px;
+        line-height: 22px;
     }
 }
 
@@ -840,7 +919,7 @@ iframe {
         text-align: center;
     }
     .photo_restoran_1 img {
-        height: 500px;
+        height: 566px;
         width: 90%;
     }
     .restoran .text p {
@@ -928,7 +1007,7 @@ iframe {
         margin-bottom: 0;
     }
     .restoran {
-        margin-top: 0;
+        margin-top: 0px;
     }
     .text_photo {
         margin-left: 73px;
@@ -937,9 +1016,6 @@ iframe {
 }
 
 @media screen and (max-width: 414px) {
-    .ban .text p {
-        line-height: 22px;
-    }
     ul.nav {
         margin-top: 23px;
         position: absolute;
@@ -973,6 +1049,11 @@ iframe {
         padding: 15px;
         line-height: 18px;
         text-align: left;
+    }
+    .about_us .text p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
     }
     .photo_img {
         margin-top: 20px;
@@ -1012,7 +1093,7 @@ iframe {
     .ban .text p {
         font-size: 13px;
         margin-left: 0;
-        text-align: left;
+        text-align: center;
     }
     .banya_row {
         margin-left: 0;
@@ -1123,10 +1204,24 @@ iframe {
     .photo_rooms img {
         width: 100%;
     }
+    .type, .amounth, .udobstva, .cost, .photo_rooms {
+        margin: 0;
+    }
+    .marg {
+        margin-left: 0;
+    }
+    .table_row {
+         margin-right: 22px;
+     }
+
 }
 
 
 @media screen and (max-width: 375px) {
+    ul.cont {
+        margin-top: 50px;
+        font-size: 9px;
+    }
     .photo_block {
         height: 127px;
     }
@@ -1140,8 +1235,12 @@ iframe {
         height: 395px;
     }
     .banya_text {
-        left: 14%;
-        top: 34%;
+        left: 20%;
+        top: 37%;
+    }
+    .banya_text li {
+        font-size: 12px;
+        margin-bottom: 7px;
     }
     .about_us .photo_img {
         margin-left: 36px;
@@ -1163,9 +1262,16 @@ iframe {
         font-size: 5px;
         margin-bottom: 2px;
     }
+    .map_text {
+        margin-left: 17px;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    ul.cont {
+        margin-top: 30px;
+    }
     .about_us .photo_img {
         margin-left: 34px;
     }
@@ -1203,7 +1309,7 @@ iframe {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     ul.nav {
         margin-top: 16px;
     }
@@ -1269,7 +1375,8 @@ iframe {
         height: 220px;
     }
     .banya_text {
-        top: 42%;
+        top: 47%;
+        left: 21%;
     }
     .photo_restoran_1 img {
         height: 350px;
@@ -1320,5 +1427,9 @@ iframe {
     }
     .gallery {
         height: 360px;
+    }
+    .banya_text {
+        top: 42%;
+        left: 17%;
     }
 }
