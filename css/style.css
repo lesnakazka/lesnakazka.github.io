@@ -1210,11 +1210,13 @@ iframe {
     .marg {
         margin-left: 0;
     }
-    .table_row
     .table_row {
         margin-right: 0;
         margin-left: 0;
         padding-right: 15px;
+    }
+    div.row.marg::before {
+        margin: 1px;
     }
 }
 
