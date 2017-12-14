@@ -1215,7 +1215,7 @@ iframe {
         margin-left: 0;
         padding-right: 15px;
     }
-    div.row.marg::before {
+    div.row.marg:before {
         margin: 1px;
     }
 }
@@ -1269,6 +1269,9 @@ iframe {
     .map_text {
         margin-left: 17px;
         margin-bottom: 20px;
+    }
+    div.row.marg:before {
+        margin: 1px;
     }
 }
 
