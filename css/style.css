@@ -1238,10 +1238,24 @@ iframe {
 
 
 @media screen and (max-width: 375px) {
-    ul.cont {
-        margin-top: 50px;
+    li.mobil {
+        font-weight: 700;
+        font-size: 11px;
+    }
+    ul.nav {
+        margin-top: 18px;
+        left: 15%;
         font-size: 9px;
     }
+    ul.cont {
+        margin-top: 45px;
+        font-size: 9px;
+        margin-right: -10px;
+    }
+    .about_us img {
+        height: 283px;
+    }
+
     .photo_block {
         height: 127px;
     }
@@ -1255,15 +1269,30 @@ iframe {
         height: 395px;
     }
     .banya_text {
-        left: 20%;
-        top: 37%;
+        left: 22%;
+        top: 44%;
+    }
+    .photo_restoran_1 img {
+        height: 400px;
+    }
+    .text_photo img {
+        height: 300px;
     }
     .banya_text li {
         font-size: 12px;
         margin-bottom: 7px;
     }
+    .banya .photo_img {
+        margin-top: -10px;
+        height: 250px;
+    }
     .about_us .photo_img {
-        margin-left: 36px;
+        margin-left: 35px;
+        margin-top: 0;
+        height: 295px;
+    }
+    .photo_banya img {
+        height: 90px;
     }
     p.copyright {
         font-size: 8px;
